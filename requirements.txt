@@ -6,7 +6,6 @@ Django==3.2.16
 django_debug_toolbar==3.8.1
 exceptiongroup==1.2.2
 executing==2.1.0
-ipython==8.18.1
 jedi==0.19.2
 matplotlib-inline==0.1.7
 parso==0.8.4

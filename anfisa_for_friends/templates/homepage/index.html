@@ -4,4 +4,10 @@
 {% endblock %}
 {% block content %}
   <h1 class="pb-2 mb-0">Главная страница</h1>
+  <br>
+  {% for ice in ice_cream_list %}
+    <ul>
+      <li>{{ ice.title }}</li>
+    </ul>
+  {% endfor %}
 {% endblock %}
